@@ -1,0 +1,24 @@
+OUTPUT "Enter times table to be tested on: "
+times <- INPUT
+OUTPUT "Enter amount of questions: "
+amount <- INPUT
+OUTPUT "Enter a mode (easy, medium, hard): "
+mode <- INPUT
+FOR i = 1 TO amount
+   correct <- 0
+   incorrect <- 0
+   IF mode = "easy" THEN
+      random_int <- RANDOM_INT(2,10)
+   IF mode = "medium" THEN
+      random_int <- RANDOM_INT(5,15)
+   IF mode = "hard" THEN
+      random_int <- RANDOM_INT(11,20)
+   num <- times * random_int
+   OUTPUT random_int ," x ", times
+   answer <- INPUT
+   IF answer = num THEN
+	OUTPUT "Correct answer"
+	correct + 1
+   ELSE
+	OUTPUT "Incorrect answer"
+	incorrect + 1

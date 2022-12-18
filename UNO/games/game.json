@@ -1,0 +1,91 @@
+[
+    {
+        "player_amount": "5",
+        "card_amount": "7",
+        "my_player": "3",
+        "cards_used": "['+4_card_0', 'Y2', 'Y+2_card', 'Yskip_turn', 'Y1', 'Yreverse_card', '+4_card_3', 'wild_card_2', 'G4', 'G5', 'G+2_card', 'G9', 'Gskip_turn', 'G+2_card', 'G2', 'Greverse_card', 'G8', 'Gskip_turn']",
+        "cards_used_len": "20",
+        "players": {
+            "0": {
+                "deck": [
+                    "Y7",
+                    "R+2_card",
+                    "Y1",
+                    "R1",
+                    "R4",
+                    "G7",
+                    "Y4",
+                    "Y9",
+                    "B7"
+                ],
+                "used_cards": [
+                    "+4_card_0",
+                    "G+2_card",
+                    "G2",
+                    "G8"
+                ]
+            },
+            "1": {
+                "deck": [
+                    "B3",
+                    "R8",
+                    "Y6",
+                    "B2",
+                    "Breverse_card",
+                    "Rskip_turn"
+                ],
+                "used_cards": [
+                    "Y1",
+                    "+4_card_3",
+                    "G5",
+                    "G+2_card",
+                    "Gskip_turn"
+                ]
+            },
+            "2": {
+                "deck": [
+                    "Y2",
+                    "B7",
+                    "B+2_card",
+                    "Y4",
+                    "B3",
+                    "R8"
+                ],
+                "used_cards": [
+                    "Y2",
+                    "Yreverse_card"
+                ]
+            },
+            "3": {
+                "deck": [
+                    "R1",
+                    "Y3",
+                    "B9",
+                    "Y7"
+                ],
+                "used_cards": [
+                    "Y+2_card",
+                    "G4",
+                    "Gskip_turn"
+                ]
+            },
+            "4": {
+                "deck": [
+                    "Y9",
+                    "R+2_card",
+                    "R3",
+                    "B1",
+                    "R6",
+                    "B8",
+                    "Y8"
+                ],
+                "used_cards": [
+                    "Yskip_turn",
+                    "wild_card_2",
+                    "G9",
+                    "Greverse_card"
+                ]
+            }
+        }
+    }
+]

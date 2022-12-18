@@ -1,0 +1,7 @@
+{
+    "sleep": true,
+    "sleep_time": 0.5,
+    "players": 5,
+    "log": true,
+    "bot_game": false
+}
